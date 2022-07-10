@@ -1,0 +1,26 @@
+.flex {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .x {
+      position: absolute;
+  }
+  #number {
+    position: absolute;
+  }
+  #slashOne {
+    position: absolute;
+    transform: rotate(40deg);
+    width: 1rem;
+    background-color: red;
+    border: solid red;
+  }
+  
+  #slashTwo {
+    position: absolute;
+    transform: rotate(-40deg);
+    width: 1rem;
+    background-color: red;
+    border: solid red;
+  }

@@ -1,0 +1,44 @@
+.showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.flexBoard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    gap: 2.5rem;
+    margin: auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 7rem;
+    padding: 1rem;
+    border: solid;
+    background-color: white;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+button:hover {
+    border: solid white;
+    background-color: black;
+    color: white;
+}
+
+.humanBoard, .machineBoard {
+    margin-bottom: 2rem;
+}
+
+.words {
+    font-weight: bold;
+    text-align: center;
+}
